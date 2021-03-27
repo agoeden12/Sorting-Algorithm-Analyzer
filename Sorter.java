@@ -13,7 +13,7 @@ public class Sorter {
 
         ArrayList<Integer> inputList = new ArrayList<>();
         
-        if (args != null && args[0] != "") {
+        if (args != null && args.length > 0) {
             String[] vals = args[0].split(",");
 
             for (String val : vals) {
