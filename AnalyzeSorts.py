@@ -11,7 +11,7 @@ class AnalyzeSorts:
 
     def run(self, timesToRun):
         for i in range(timesToRun):
-            print("{0} item{1} in the array".format(i+1, "s" if i+1 > 1 else ""))
+            # print("{0} item{1} in the array".format(i+1, "s" if i+1 > 1 else ""))
             self.status = "unsorted"
             self.generateArray(1, 10000, i+1)
             self.executeJava()
